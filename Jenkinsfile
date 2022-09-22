@@ -2,7 +2,7 @@ pipeline {
     agent any
 
     stages {
-       stage('Foo') {
+       stage('Date') {
           steps {
              script {
                 def now = new Date()
